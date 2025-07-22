@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inika, system-ui, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #2b512a;
+  --secondary-color: #ffb700;
+  --section-max-width: 1300px;
+  --nav-bar-height: 5rem;
+}

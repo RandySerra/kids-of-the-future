@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  /* background-image: url("../../assets/bible.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 1rem;
+  width: 100%;
+  max-width: var(--section-max-width);
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  justify-content: center;
+}
+
+.highlightContainer {
+  padding: 10px;
+}
+
+.leftSide {
+  color: var(--primary-color);
+  flex: 1;
+}
+
+.rightSide {
+  background-color: black;
+  color: var(--secondary-color);
+  flex: 1;
+}
+
+.highlight {
+  font-size: 3rem;
+}
+
+.weContainer {
+  padding: 10px;
+  max-width: 800px;
+}
+
+.we {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.verse {
+  align-self: flex-end;
+  /* background-color: black; */
+  color: var(--primary-color);
+  text-align: right;
+  width: fit-content;
+  padding: 0.4rem;
+  border-bottom: 5px solid black;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) {
+  .title {
+    flex-direction: row;
+    font-size: 4rem;
+  }
+  .highlight {
+    font-size: 6rem;
+  }
+  .we {
+    font-size: 2rem;
+    color: black;
+  }
+  .verse {
+    font-size: 2rem;
+  }
+}

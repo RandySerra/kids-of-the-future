@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-image: url("../../assets/mountain.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.9);
+  gap: 1rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+}
+
+.highlightContainer {
+  padding: 10px;
+  background-color: white;
+  mix-blend-mode: screen;
+  opacity: 0.9;
+}
+
+.highlight {
+  font-size: 2.2rem;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+.weContainer {
+  padding: 10px;
+  background-color: white;
+  mix-blend-mode: screen;
+  opacity: 0.9;
+  font-size: 1.2rem;
+}
+
+.we {
+  mix-blend-mode: difference;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .title {
+    max-width: 800px;
+    line-height: 1.8;
+    font-size: 3rem;
+  }
+
+  .weContainer {
+    max-width: 800px;
+    line-height: 1.8;
+    font-size: 2rem;
+  }
+}
