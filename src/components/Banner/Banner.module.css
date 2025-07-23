@@ -17,6 +17,8 @@
   color: white;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 3px 3px 8px var(--secondary-color);
+
 }
 
 .bar {
